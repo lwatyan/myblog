@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User + number</title>
+</head>
+<body>
+
+	<h1> The Current User is : {{user}} </h1>
+	<h3> Your age in light years is : {{number}} </h3>
+
+		{% for wow in mylist %}
+
+			<a href="{% url 'url3' article_id=article.id'%}"><h1> {{wow.title}} </h1></a>
+			<small> {{wow.content}}</small>
+		{% endfor%} 
+</body>
+</html>
